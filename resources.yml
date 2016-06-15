@@ -1,0 +1,14 @@
+resources:
+  - name: test_repo_1
+    type: image
+    integration: ankul-docker
+    source:
+      name: "ankul/test-repo"
+      isPull: false
+      tag: latest
+      
+  - name: ddc_resource_1
+    type: ddcCluster
+    integration: ankul-ddc
+    source:
+      name: "ddc-cluster_name"
