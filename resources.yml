@@ -3,9 +3,9 @@ resources:
     type: image
     integration: ankul-docker
     source:
-      name: "ankul/test-repo"
+      name: "nginx"
       isPull: false
-      tag: akskas
+      tag: latest
       
   - name: ddc_resource_1
     type: ddcCluster
