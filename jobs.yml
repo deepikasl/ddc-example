@@ -1,11 +1,11 @@
 jobs:
-  - name: imageJob2
+  - name: imageJob3
     type: manifest
     steps:
-      - GET: test_repo_2
+      - GET: test_repo_3
 
-  - name: ddcClusterJob2
+  - name: ddcClusterJob3
     type: ddcDeploy
     steps:
-      - GET: imageJob2
-      - GET: ddc_resource_2
+      - GET: imageJob3
+      - GET: ddc_resource_3
